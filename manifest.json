@@ -1,7 +1,7 @@
 {
   "description": "Hides the difficulty on leetcode problems",
   "manifest_version": 2,
-  "name": "Leetcode-Difficulty",
+  "name": "Leetcode-Difficulty-Hide",
   "version": "0.1",
   "homepage_url": "https://github.com/c-git/leetcode_extension",
   "browser_specific_settings": {
