@@ -4,6 +4,11 @@
   "name": "Leetcode-Difficulty",
   "version": "0.1",
   "homepage_url": "https://github.com/c-git/leetcode_extension",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "onebgz1@gmail.com"
+    }
+  },
   "icons": {
     "48": "icons/see-no-evil-monkey.svg"
   },
