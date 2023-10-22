@@ -1,4 +1,4 @@
 /*
-Just draw a border round the document.body.
+Hide the difficulty if found
 */
 document.body.style.border = "5px solid red";

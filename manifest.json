@@ -1,19 +1,20 @@
 {
-
-  "description": "Adds a solid red border to all webpages matching mozilla.org. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#borderify",
+  "description": "Hides the difficulty on leetcode problems",
   "manifest_version": 2,
-  "name": "Borderify",
-  "version": "1.0",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/borderify",
+  "name": "Leetcode-Difficulty",
+  "version": "0.1",
+  "homepage_url": "https://github.com/c-git/leetcode_extension",
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/see-no-evil-monkey.svg"
   },
-
   "content_scripts": [
     {
-      "matches": ["*://*.mozilla.org/*"],
-      "js": ["borderify.js"]
+      "matches": [
+        "https://leetcode.com/problems/*"
+      ],
+      "js": [
+        "main.js"
+      ]
     }
   ]
-
 }
