@@ -8,6 +8,8 @@ Hide the difficulty if found
     let loopCount = 0;
     const NUM_SECONDS_TO_TRY = 10;
     const TIMES_PER_SECOND = 4;
+    // Has to be repeated for several seconds because leetcode takes a while to finish loading the page and will overwrite
+    // our changes if we only do it once and we may do it before the element exists.
     const REPEAT_COUNT = NUM_SECONDS_TO_TRY * TIMES_PER_SECOND;
 
     function hideDifficulty() {
