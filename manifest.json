@@ -1,5 +1,5 @@
 {
-  "description": "Hides the difficulty on leetcode problems",
+  "description": "Hides the difficulty on leetcode problems. Makes the text color and background black and increases the width so it doesn't depend on the text. Repeats for a few seconds as Leetcode loads asynchronously.",
   "manifest_version": 2,
   "name": "Leetcode-Difficulty-Hide",
   "version": "0.1",
